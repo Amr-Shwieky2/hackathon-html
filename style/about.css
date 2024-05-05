@@ -1,0 +1,33 @@
+.section-about,
+.section-contact {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section-heading {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.about-description,
+.contact-details {
+  line-height: 1.5;
+  color: #333;
+}
+
+.about-quote {
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,22 @@
+.nav-container {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+  .site-logo {
+    color: var(--text-color);
+  }
+  
+  .site-nav .nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .site-nav .nav-link:hover,
+  .site-nav .nav-link.active {
+    background-color: var(--secondary-color); /* Changed to use secondary color for hover */
+  }
